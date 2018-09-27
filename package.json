@@ -1,0 +1,21 @@
+{
+  "name": "@uside/adonis-backup",
+  "version": "1.0.0",
+  "description": "Backblaze pg backup tool for Adonis",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Vladimir <uSide> Kleshko",
+    "email": "uside.node@gmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/uSide/node-adonis-backup",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:uSide/node-adonis-backup.git"
+  },
+  "dependencies": {
+    "moment": "^2.22.2"
+  }
+}
