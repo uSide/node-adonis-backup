@@ -1,0 +1,6 @@
+extends: standard
+rules:
+  camelcase: 0
+  max-len: 2
+globals:
+  use: false

@@ -1,6 +1,6 @@
 {
   "name": "@uside/adonis-backup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Backblaze pg backup tool for Adonis",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,5 +17,13 @@
   },
   "dependencies": {
     "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
   }
 }
