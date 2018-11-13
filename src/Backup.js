@@ -14,7 +14,9 @@ class Backup {
   exec (command, args) {
     return new Promise(resolve => {
       let proc = spawn(command, args)
-      proc.stderr.on('data', console.error.bind(console))
+      proc.stderr.on('data', (data) => {
+        console.error(data.toString())
+      })
       proc.on('close', code => resolve(code))
     })
   }
