@@ -38,9 +38,14 @@ class Backup {
 
     if (
       (await this.exec('openssl', [
-        'aes-256-cbc',
+        'enc',
         '-e',
-        '-a',
+        '-aes-256-cbc',
+        '-md',
+        'sha512',
+        '-pbkdf2',
+        '-iter',
+        '1000',
         '-salt',
         '-pass',
         `pass:${this.Config.get('backup.key')}`,
